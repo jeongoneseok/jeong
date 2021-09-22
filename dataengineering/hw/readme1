@@ -1,0 +1,34 @@
+# tasrs
+lovely_loveseat_decription = "lovely loveseat. tufted polyester blend on wood. 32 inches high X 40 inches wide X 30 inches deep red or white"
+lovely_loveseat_price = 254.00
+
+stylish_settee_description = "stylish settee faux leather on birch. 29.50 inches high X 54.75 inches wide X 28 inches deep. black"
+stylish_settee_price = 180.50
+
+luxurious_lamp_description = "luxurious lamp. glass and iron. 36 inches tall. brown with cream shade."
+luxurious_lamp_price = 52.15
+
+sales_tax = .088
+
+# our first customer
+
+customer_one_total = 0
+customer_one_itemization = ""
+
+# 1st purchase
+customer_one_total = lovely_loveseat_price
+customer_one_itemization = lovely_loveseat_decription
+
+# 2st purchase
+customer_one_total += luxurious_lamp_price
+customer_one_itemization += luxurious_lamp_description
+
+# 3st purchase
+customer_one_tax = customer_one_total * sales_tax
+customer_one_total += customer_one_tax
+
+#customer receipt
+print("customer one items")
+print(customer_one_itemization)
+print("customer_one_total")
+print(customer_one_total)
