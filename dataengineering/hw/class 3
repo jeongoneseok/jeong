@@ -1,0 +1,15 @@
+sw_subject = ['c program', 'data1', 'database'] 
+sw_subject.remove('algorithms')
+
+print(sw_subject)
+
+---------------------------------------------------------------------------
+ValueError                                Traceback (most recent call last)
+<ipython-input-1-f7d0f7824039> in <module>
+      2 
+      3 
+----> 4 sw_subject.remove('algorithms')
+      5 
+      6 print(sw_subject)
+
+ValueError: list.remove(x): x not in list
