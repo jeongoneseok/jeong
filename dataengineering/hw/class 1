@@ -1,0 +1,42 @@
+print("hello world")
+print(100)
+x=3.14
+print(x)
+intro ="my name is"
+name = " 정원석"
+print(intro + name)
+
+#변수
+name = " jeongwonseok"
+age =  25
+phonenumber =  24273680
+
+#변수타입(정수)
+chair = 5
+desk = 3
+bed = 3
+table = 1
+sofa = 1
+
+"""
+data type: Real Number
+"""
+
+my_weight = 78.5
+my_tall = 180.5
+pi = 3.14 #떠오르지 않아서 죄송합니다 ㅠㅠ!
+
+"""
+data type: spring
+"""
+
+favorite_game = 'fifa'
+favorite_fodd = 'hamberger'
+favorite_movie = 'intime'
+
+"""
+plus_equal operations
+"""
+a = 8
+a /= 2
+print(a)
