@@ -1,0 +1,36 @@
+hairstyles = [["bouffant",30,2], ["pixie",25,3], ["dreadlocks",40,5], ["crew",20,8], ["bowl",20,4], ["bob",35,4], ["mohawk",50,6], ["flattop",35,2]]
+prices = [30, 25, 40, 20, 20, 35, 50, 35]
+
+total_price = 0
+total_price = prices
+
+sum = 0
+
+for total in total_price:
+    sum += total
+average_price = sum / len(total_price)
+
+print(average_price)
+
+total = [25,20,35,15,15,30,45,30]
+
+new_total = total
+
+print(total)
+
+total_revenue = 0
+
+for i in hairstyles:
+    total_revenue += i[1]*i[2]
+    
+print(total_revenue)
+average_daily_revenue = total_revenue/7
+
+print(average_daily_revenue)
+
+
+for i in hairstyles:
+    if i[1]<30:
+        cuts_under_30 = i[0]
+
+print(cuts_under_30)   
