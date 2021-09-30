@@ -1,0 +1,19 @@
+test1 = np.array([92,94,88,91,87])
+test2 = np.array([79,100,86,93,91])
+test3 = np.array([87,85,72,90,92])
+
+test3_fixed = test3+2
+total_grade = test1 + test2 + test3_fixed
+
+final_grade = total_grade/3
+print(final_grade)
+
+jeremy_test_2 = test2[3]
+manual_adwoa_test_1 = test1[[0,2]]
+student_scores = np.array([[92,94,88,91,87],[79,100,86,93,91],[87,85,72,90,92]])
+student_scores[2][0]
+student_scores[:,-1]
+
+a = np.array([10, 2, 2, 4, 5, 3, 9, 8, 9, 7])
+selected = a[a > 5]
+print(selected)
